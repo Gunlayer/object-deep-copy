@@ -1,0 +1,19 @@
+{
+  "name": "@gunlayer/object-deep-copy",
+  "version": "1.0.0",
+  "description": "create object deep copy",
+  "main": "deepCopy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gunlayer/object-deep-clone"
+  },
+  "keywords": [
+    "object-deep-copy"
+  ],
+  "author": "https://www.linkedin.com/in/alexandru-turcan-45a780217/",
+  "license": "ISC",
+  "homepage": "https://github.com/rupinder-developer/deep-cloner#readme"
+}
