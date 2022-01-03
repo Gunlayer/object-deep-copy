@@ -1,6 +1,6 @@
 # object-deep-clone
 
-This package allows to create a deep clone of your object
+This package allows to create a deep copy of your object
 
 ## Installation
 

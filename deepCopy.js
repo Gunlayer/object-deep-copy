@@ -1,4 +1,4 @@
-const createDeepCloneObjectCopy = (obj) => {
+const createDeepObjectCopy = (obj) => {
   if (obj && typeof obj === 'object' && obj !== null && !Array.isArray(obj)) {
     const copy = {};
     for (let key in obj) {
@@ -10,7 +10,7 @@ const createDeepCloneObjectCopy = (obj) => {
     }
     return copy;
   } else {
-    console.log('is not an object');
+    throw new Error('is not an object');
   }
 };
-export default createDeepCloneObjectCopy;
+export default createDeepObjectCopy;
